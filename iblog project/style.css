@@ -1,0 +1,161 @@
+* {
+    background-color: rgb(248, 239, 239, 0.5);
+
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    font-size: 18px;
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    margin-top: 12px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    /* background-image: url(./image/background.png); */
+    /* background-image: url('../image/image\ 3.jpeg'); */
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.35;
+}
+
+.nav-left {
+    margin-top: 23px;
+    font-size: 20px;
+    display: flex;
+
+    font-size: 35px;
+}
+
+.nav-left span {
+    font-size: 50px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-size: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: brown;
+    font-weight: bold;
+
+}
+
+.content-left {
+    padding: 2px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 18px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    width: 347px;
+    height: 345px;
+    border: 2px solid black;
+    border-radius: 200px;
+
+}
+
+.home-articales {
+    padding: 18px;
+    background-color: rgb(248, 239, 239, 0.5);
+    margin-top: 23px;
+    position: relative;
+    /* background-color: rgb(248, 239,239);}
+    /* background-cobalor: rgba(255, 0, 0, 0.416);*/
+
+}
+
+.year-box {
+    position: absolute;
+    /* background-color: aqua; */
+    right: 20px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+
+
+}
+
+.year-box div {
+    margin-top: 12px 0px;
+
+}
+
+.home-art {
+    display: flex;
+    margin: 25px;
+}
+
+.home-art-img {
+    width: 420px;
+}
+
+.home-art-content {
+    align-self: center;
+    padding: 22px;
+}
+
+.home-art-content a {
+    text-decoration: none;
+    color: black;
+   
+}
+.home-art-content  span{
+    font-size: 20px;
+}
+
+.footer {
+    height: 50px;
+    background-color:rgba(255, 182, 193, 0.137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:brown;
+    flex-direction: column;
+}
+
+footer a {
+    color:cadetblue;
+}

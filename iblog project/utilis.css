@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Pacifico&family=Rubik+Bubbles&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100&family=Kalnia:wght@200&family=Pacifico&family=Rubik+Bubbles&display=swap');
+
+ :root {
+     --main-bg-color: brown;
+     --font1: 'Rubik Bubbles';
+     --font2: 'Pacifico';
+ }
+.font-1{font-family: var(--font1);}
+.font-2{font-family: var(--font2);}
+
+ .max-width-1 {
+     max-width: 80vw;
+
+ }
+
+ .max-width-2 {
+     max-width: 60vw;
+ }
+
+ .m-auto {
+     margin: auto;
+ }
+.my-2{
+    margin-bottom: 14px;
+    margin-top: 16px;
+}
+ .btn {
+     padding: 0px 20px;
+     padding-top: 3px;
+     border: 2px sloid black;
+     border-radius: 4px;
+     /* font-family: var(--font2); */
+     font-size: 16px;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;    
+
+ }
+ .btn a {text-decoration: none;}
+ .btn:hover{
+    background-color:brown;
+    color: white;
+ }
+
+ .form-input {
+     /* padding: 3px 7px; */
+     border: 2ps solid black;
+     border-radius: 5px;
+     font-size: 16px;
+     margin: 0 13px;
+     /* font-family: var(--font2); */
+
+
+ }
+ .form-box input, textarea{width: 74vw;
+    padding: 5px 3px;
+    margin: 3px 0px;
+    font-size: 15px;
+    border: 2px sloid orange;
+    border-radius: px;
+
+ }

@@ -1,0 +1,12 @@
+.contact-content{
+   height: 100vh;
+   padding: -1px;
+    /* background-color:rgba(255, 182, 193, 0.137); */
+    z-index: -1;
+
+}
+.footer{
+    padding: 10px;
+     /* background-color: aquamarine; */ */
+    margin-right: -20px;
+}
